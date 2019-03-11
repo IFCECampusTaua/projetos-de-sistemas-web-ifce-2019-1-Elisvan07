@@ -1,0 +1,154 @@
+<!--Questão 01 - Lista 2 HTML -->
+<!DOCTYPE html>
+<html>
+<head> 
+	<title> Escola Virtual - Questão 01 </title>
+	<meta charset="UTF-8">
+	
+</head>
+
+<body>
+	<table border="1px">
+		<td>
+			<h2 align="center">Escola Virtual</h2>
+			<h3 align="center">Formulário de Pré-Matrícula</h3>
+			<hr>
+			<table border="1px" width="500">
+				<tr><td>
+					<table border="0px" style="font-family:arial;font-size:12px;">
+						<tr>
+							<td>
+								<b>Dados Pessoais:</b>
+							</td>
+						</tr>
+						<tr>
+							<td align="right">
+								Nome do Aluno:
+							</td>
+							<td>
+								<input type="text" name="nome_aluno" maxlength="55" size="25">
+							</td>
+						</tr>
+						<tr>
+							<td align="right">
+								Nascimento(dd/mm/aaaa):
+							</td>
+							<td> 
+								<input type="date">
+							</td>
+						</tr>
+						<tr>
+							<td align="right">
+								Nome da Mãe:
+							</td>
+							<td>
+								<input type="text" name="nome_mae" maxlength="55" size="25">
+							</td>
+						</tr>
+						<tr>
+							<td align="right">
+								Nome do Pai:
+							</td>
+							<td>
+								<input type="text" name="nome_pai" maxlength="55" size="25">
+							</td>
+						</tr>
+						<tr>
+							<td align="right">
+								Telefone:
+							</td>
+							<td>
+								DDD(<input type="tel" size="1" maxlength="2">) Tel: <input type="tel" size="5" maxlength="9"> Ramal: <input type="tel" size="3">
+							</td>
+						</tr>
+						<tr>
+							<td align="right">
+								Email:
+							</td>
+							<td>
+								<input type="e-mail" maxlength="40" size="25">
+							</td>
+						</tr>
+					</table>
+				</tr></td>
+			
+				<tr>
+					<td>
+						<table border="0px" style="font-family:arial;font-size:12px;">
+							<tr>
+								<td><b>Informações de Matrícula:</b></td>
+							</tr>
+							<tr>
+								<td>Série:</td>
+								<td>Turno:</td>
+								<td>Atividades Extracurriculares:</td>
+							</tr>
+							<tr>
+								<td>
+									<select name="serie">
+										<option value="pre_escola" selected>Pré-Escolar</option> 
+										<option value="ensino_fund">Ensino Fundamental</option>
+										<option value="ensino_medio">Ensino Médio</option>
+										<option value="graduacao">Graduação</option>
+										<option value="pos_graduacao">Pós-Graduação</option>
+									</select>
+								</td>
+								<td>
+									<input type="radio" name="turno" value="manha">Manhã
+								</td>
+								<td>
+									<input type="checkbox" name="at_1" valor="Informatica">Informática
+								</td>
+							</tr>
+							<tr>				
+								<td></td> <!-- Para poder alinhar -->
+								<td>
+									<input type="radio" name="turno" value="tarde">Tarde
+								</td>
+								<td>
+									<input type="checkbox" name="at_2" valor="Musica">Música
+								</td>
+							</tr>
+							<tr>
+								<td></td> <!-- Para poder alinhar -->
+								<td></td>
+								<td>
+									<input type="checkbox" name="at_3" valor="Balet">Balet
+								</td>
+							</tr>
+							<tr>
+								<td></td> <!-- Para poder alinhar -->
+								<td></td>
+								<td>
+									<input type="checkbox" name="at_4" valor="Pintura">Pintura
+								</td>
+							</tr>
+							<tr>
+								<td></td> <!-- Para poder alinhar -->
+								<td></td>
+								<td>
+									<input type="checkbox" name="at_5" valor="Judo">Judô
+								</td>
+							</tr>
+							<tr>
+								<td></td> <!-- Para poder alinhar -->
+								<td></td>
+								<td>
+									<input type="checkbox" name="at_6" valor="Futebol">Futebol
+								</td>
+							</tr>
+						</table> 	
+					</tr>
+				</td>
+			</table>	
+			<br>
+			<div align="center">
+				<input type="submit" value="Enviar Formulário" >
+ 				<input type="reset" value="Limpar Campos"> 
+ 			</div><br>	
+		</td>
+	</table>
+
+</body>
+
+</html>
