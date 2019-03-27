@@ -1,0 +1,65 @@
+#title{
+	font-size: 52px;
+	font-family: arial;
+	text-align: center;
+	height: 280px;
+	padding-top: 40px;
+	color: #FFFFFF;/*cor texto*/
+	background-color: #00BFFF;/*cor de fundo*/
+}
+
+.menu{
+	position: relative;
+	font-size: 17px;
+	top: 170px;
+	height: 50px;
+	background-color: #1E90FF;
+}
+
+#home{
+	position: absolute;
+	width: 50px;
+	top: 30%;
+	left: 30%;
+}
+
+#about{
+	position: absolute;
+	width: 50px;
+	top: 30%;
+	left: 40%;
+}
+
+#gallery{
+	position: absolute;
+	width: 50px;
+	top: 30%;
+	left: 50%;
+}
+
+#contact{
+	position: absolute;
+	width: 50px;
+	top: 30%;
+	left: 60%;
+}
+
+#background{
+	height: 250px;
+	padding: 20px;
+	background-color: #DCDCDC;
+}
+
+#texto{
+	font-family: arial;
+	text-align: left;
+	padding: 30px 15px 15px 15px;
+	color: #696969;
+	background-color: #FFFFFF;/*fundo do texto*/
+}
+
+#title_text{
+	font-size: 35px;
+	font-family: arial;
+	color: #000000;
+}

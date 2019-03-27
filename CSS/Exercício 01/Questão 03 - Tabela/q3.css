@@ -1,0 +1,76 @@
+table{
+    border: 1px solid #DDDDDD;
+    font-family: arial;
+    border-collapse: collapse;
+}
+
+th{ /*titulo da tabela*/
+    font-size: 13px;
+    color: #999999;
+    text-align: center;
+    border-bottom: 1px solid #DDDDDD;
+    width: 25px;
+    padding: 10px;
+}
+
+td{ /* linhas da tabela*/
+    border-bottom: 1px solid #DDDDDD;
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    width: 25px;
+    padding: 10px;
+}
+
+.pos123{ /* Posições 1,2 e 3 */
+    color: #003366;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.pos4{ /* Posição 4 */
+    color: #1398BE;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.pos56{ /* posições 5 e 6 */
+    color: #DE9800;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.time{ /* coluna times */
+    font-size: 14px;
+    color: #666666;
+    text-align: left;
+    font-weight: bold;
+    padding-right: 100px;
+}
+
+.pontos{ /* coluna pontos */
+    font-size: 14px;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    background-color: #F7F7F7;
+}
+
+.fundocol{ /* cor de fundo */
+    background-color: #F7F7F7;
+}
+
+#border_zone{ /* bordar da zona de rebaixamento */
+    border-bottom: 2px solid #CCCCCC;
+}
+
+.porc{ /* Coluna da porcentagem */
+    font-size: 14px;
+    color: #666666;
+    background-color: #F7F7F7;
+    text-align: center;
+    width: 35px;
+}
