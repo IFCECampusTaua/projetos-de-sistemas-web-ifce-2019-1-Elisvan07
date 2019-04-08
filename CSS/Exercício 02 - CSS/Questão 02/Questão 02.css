@@ -1,0 +1,92 @@
+body{
+	font: 14px arial;/* Tamanho e esilo da fonte */
+}
+table{
+	width: 100%;
+	padding: 15px;/* espaçamento */
+	font-size: 11px;/* Tamanho da fonte */
+	text-align: justify;/* Para deixar texto justificado */
+	border-spacing: 0px;/* Para retirar espaçamento entre as bordas */
+}
+ul{
+	background-color: #000000;
+	padding: 0px;
+	margin: 0px;
+	color: #808080;
+	list-style-type: none;/* Para retirar pontos(.) do menu */
+	overflow: hidden;/* Deixar menu visivél */
+}
+li{
+	float: left;/* Alinhamento */
+}
+li a{
+	display: block;/* estilo de menu */
+	padding: 15px 16px;
+	text-align: center;
+	color: #FFFFFF;
+	text-decoration: none;/* Para retirar sublinhado do Menu */
+}
+tr:nth-child(even){/* Para mesnlar cores da lista */
+	background-color: #F8F8FF;
+}
+.menu{
+	float: right;/* Para o menu começar do lado direito */
+}
+.cabecalho{
+	padding: 14px;/* Espaçamento */
+}
+.itens{
+	font-size: 20px;/* Tamanho da fonte */
+}
+.pesquisar{
+	width: 240px;
+	height: 20px;
+	border: 1px solid #CCCCCC;
+	border-radius: 4px;/* Estilo da borda */
+	left: 200px;
+	text-align: left;
+	font-size: 15px;
+	padding: 6px;
+	position: relative;
+	background-position: 515px;
+	background-image: url('lupa.png');/* Para inserir imagem no background */
+	background-repeat: no-repeat;/* Para não repetir imagem */
+	padding: 8px 20px 8px 300px;
+}
+.button{
+	color: #FFFFFF;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	float: right;
+	background-color: #4682B4;/* cor do botão */
+	border-radius: 5px;
+	border: none;
+}
+.view{
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #228B22;
+	border-radius: 5px;
+	border: none;
+}
+.edit{
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #FFA500;
+	border-radius: 5px;
+	border: none;
+}
+.clear{
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #B22222;
+	border-radius: 5px;
+	border: none;
+}

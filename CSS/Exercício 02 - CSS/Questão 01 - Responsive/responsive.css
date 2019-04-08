@@ -1,0 +1,109 @@
+body{
+	font: 25px arial;/* Tamanho e tipo da fonte */
+	color: #FFFFFF;
+	width: 50%;
+	text-align: center;/* Para centralizar o texto */
+}
+header{
+	width: 40%;/* Comprimento do bloco */
+	height: 15%;/* Altura do bloco */
+	top: 1px;/* espaçamento entre o topo e o bloco */
+	background-color: #F10000;/* cor de fundo */
+	position: absolute;/* Para não alterar a posição do bloco */
+	line-height: 80px;/* Para centralizar verticalmente */
+}
+nav{
+	width: 40%;
+	height: 15%;
+	top: 15.5%;
+	background-color: #FF8C00;
+	position: absolute;
+	line-height: 80px;	
+}
+section{
+	width: 25%;
+	height: 56%;
+	top: 31%;
+	background-color: #2E8B57;
+	position: absolute;
+}
+article{
+	width: 90%;
+	height: 25%;
+	top: 25%;
+	left: 4%;
+	background-color: #32CD32;
+	position: relative;
+}
+aside{
+	width: 14.5%;
+	height: 56%;
+	left: 26%;
+	top: 31%;
+	background-color: #1E90FF;
+	position: absolute;
+}
+footer{
+	width: 40%;
+	height: 12%;
+	top: 87.5%;
+	background-color: #C0C0C0;
+	position: absolute;
+	line-height: 75px;
+}
+
+@media screen and (max-width: 480px){/* Para telas abaixo de 480 px */
+	body{
+		font: normal 30px arial;
+		color: #FFFFFF;
+		text-align: center;
+	}
+	header{
+		width: 100%;
+		height: 20%;
+		top: 1px;
+		left: 0px;
+		background-color: #F10000;
+		position: absolute;
+	}
+	nav{
+		width: 100%;
+		height: 20%;
+		top: 20.5%;
+		left: 0px;
+		background-color: #FF8C00;
+		position: absolute;
+	}
+	section{
+		width: 100%;
+		height: 65%;
+		top: 41%;
+		left: 0px;
+		background-color: #2E8B57;
+		position: absolute;
+	}
+	article{
+		width: 90%;
+		height: 20%;
+		top: 8%;
+		left: 5%;
+		background-color: #32CD32;
+		position: relative;
+	}
+	aside{
+		width: 100%;
+		height: 50%;
+		top: 107%;
+		left: 0px;
+		background-color: #1E90FF;
+		position: absolute;
+	}
+	footer{
+		width: 100%;
+		height: 20%;
+		top: 158%;
+		left: 0px;
+		background-color: #C0C0C0;
+		position: absolute;
+	}
+}
