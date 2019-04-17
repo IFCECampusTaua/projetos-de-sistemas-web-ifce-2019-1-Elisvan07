@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Exercício 09 - JS</title>
+	<style type="text/css" media="screen">
+		div#conteiner{
+			width: 500px;
+			margin: auto;
+			border: 2px solid #98A4cd;
+			padding: 10px;
+			border-radius: 2px;
+		}
+		img{
+			width: 220px;
+			height: 175px;
+		}
+		p{
+			font-family: Tahoma, Arial, sans-serif;
+			font-size: 12pt;
+		}
+		span{
+			font-size: 13pt;
+			font-family: Arial, sans-serif;
+			font-weight: bold;
+		}
+		input#salarioAtual{
+			border: 1px solid #74594E;
+			font-size: 13pt;
+			border-radius: 3px;
+		}
+		
+	</style>
+</head>
+<body>
+	<div id="conteiner">
+		<div id="img"><img src="Tabajara.png"></div>
+		<div id="info">
+			<p>Informe o sálario atual: <input type="text" name="Caixa" id="salarioAtual">
+			<button id="btn">Reajustar</button></p>
+			<p>Salário antes do reajuste: <span id="salAntes"></span></p>
+			<p>Percentual de aumento aplicado: <span id="percAumenAplic"></span></p>
+			<p>Valor do aumento: <span id="aumento"></span></p>
+			<p>Novo salário, após o aumento: <span id="novoSal"></span></p>
+		</div>
+	</div>
+	<script type="text/javascript" src="q9.js"></script>
+</body>
+</html>
